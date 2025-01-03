@@ -2,6 +2,7 @@ FROM python:3.11-alpine
 
 WORKDIR /app
 
-COPY addition.py .
+COPY COPY Sourcecode/addition.py /app/addition.py
+
 
 CMD ["python", "addition.py"]
